@@ -16,17 +16,4 @@ This project was developed as part of the **Flickdone AI Platform Developer Asse
 - 🔁 Modular, on-premise-ready architecture  
 - 🛠️ Text output (TTS in progress)
 
----
 
-## 📁 Folder Structure
-
-multilingual-rag/
-├── audio_inputs/ # Input .wav audio files
-├── corpus/ # Text documents for retrieval
-├── modules/ # Modular Python files
-│ ├── stt_module.py # Speech-to-text (Whisper)
-│ ├── embedding_module.py # Embedding + retrieval (FAISS)
-│ └── generation_module.py# GPT-based answer generation
-├── outputs/ # (To be used for TTS output)
-├── main.py # Main pipeline script
-└── requirements.txt # Required Python packages
